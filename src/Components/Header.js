@@ -1,7 +1,8 @@
+import './Header.css';
 const Header = () => {
   return (
     <div>
-      <p>Header</p>
+      <img src="/hologram.png" alt="Hologram Projector Icon" className="icon"></img>
     </div>
   );
 };

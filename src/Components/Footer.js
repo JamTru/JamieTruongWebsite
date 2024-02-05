@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div>
-      <p>Footer</p>
+      <a href="https://www.flaticon.com/free-icons/cyberpunk" title="cyberpunk icons">Cyberpunk icons created by Freepik - Flaticon</a>
     </div>
   );
 };
