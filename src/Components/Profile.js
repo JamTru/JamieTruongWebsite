@@ -1,7 +1,7 @@
 import AnimatedText from './AnimatedText.js';
 const Profile = () => {
   return (
-    <div>
+    <div id="profile">
       <AnimatedText text="Hello, world. My name is" delay={75} />
     </div>
   );
