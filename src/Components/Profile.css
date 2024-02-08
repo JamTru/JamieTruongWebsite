@@ -1,0 +1,17 @@
+.textPositioning {
+  margin-top:5rem;
+  margin-right: auto;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+}
+
+.textPositioning h1 {
+  padding-left: 3rem;
+  color: #00FF66;
+  font-family: 'Ubuntu';
+}
+
+#profile {
+  background-image: url("./Images/tesselatingBG.jpg");
+  padding: 5rem;
+}
