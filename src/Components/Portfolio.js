@@ -1,7 +1,10 @@
+import './Portfolio.css';
 const Portfolio = () => {
   return (
     <div id="portfolio">
-      <p>Portfolio</p>
+      <h1>What I've Built</h1>
+      <hr className="fancyLine"></hr>
+      
     </div>
   );
 };
