@@ -12,8 +12,9 @@ const Profile = () => {
         </div>
       </div>
       <div className="columnRight">
-        <h3><i>Full Stack Developer</i></h3>
-        <h3><i>Cloud Developer</i></h3>
+        <h3><i><ruby>Full Stack Developer<rt>React | Node.JS | Express</rt></ruby></i></h3>
+        <h3><i><ruby>Cloud Developer<rt>Amazon Web Services</rt></ruby></i></h3>
+        <h3><i><ruby>Software Developer<rt>Java</rt></ruby></i></h3>
       </div>
     </div>
   );
