@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .fancyLine {
   overflow: visible; /* For IE */
   padding: 0;
@@ -15,4 +16,37 @@
     font-size: 1.5em;
     padding: 0 0.25em;
     background: white;
+=======
+#portfolio {
+  display:flex;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.leftColumn {
+  flex:30%;
+}
+.leftColumn h1 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.rightColumn {
+  flex:70%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 30rem;
+  border-left: double 3px black;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.rightColumn video {
+  width: 80%;
+
+  height: auto;
+}
+
+.rightColumn hr {
+  height: 5px;
+>>>>>>> parent of e666bd4 (Updates)
 }

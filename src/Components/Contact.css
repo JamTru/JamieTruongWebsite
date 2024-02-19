@@ -1,0 +1,79 @@
+#contact {
+  background-color: #444444;
+  padding-top: 5rem;
+  padding-bottom:5rem;
+}
+#contact h1 {
+  color: white;
+  text-align: center;
+}
+#contact p {
+  color:white;
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-size: 1rem;
+}
+.buttonGrid {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  gap: 3rem;
+}
+/*Button styling and transition animations taken from https://dev.to/grohit/showing-icon-on-hover-in-button-29me*/
+button {
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 36px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.email:after {
+  content: '📧';
+  position: absolute;
+  opacity: 0;
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+.linkedin:after {
+  content: '💬';
+  position: absolute;
+  opacity: 0;
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+button:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+button a {
+  outline:none;
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+  font-family: 'Ubuntu';
+}
