@@ -2,11 +2,6 @@ import './Portfolio.css';
 const Portfolio = () => {
   return (
     <div id="portfolio">
-<<<<<<< HEAD
-      <h1>What I've Built</h1>
-      <hr className="fancyLine"></hr>
-      
-=======
       <div className="leftColumn">
         <h1> What I've Built </h1>
       </div>
@@ -21,7 +16,6 @@ const Portfolio = () => {
         <p>This website project was built for the Full Stack Development Course at RMIT. This utilised React and React Bootstrap to develop a website for a hypothetical website named Loop Cinemas, with a backend of Eclipse and Node.JS to deliver a login functionality that was also capable of leaving reviews that would be read and displayed on movie pages by saving all data to a database. </p>
         <hr />
       </div>
->>>>>>> parent of e666bd4 (Updates)
     </div>
   );
 };
